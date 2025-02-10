@@ -3,7 +3,6 @@ print ("Introduzca DNI sin letra:")
 
 DNI = int(input ())
 #resultado = DNI - (int(DNI / 23) * 23)
-
 resultado = DNI % 23
 
 LetraDNI = ""
