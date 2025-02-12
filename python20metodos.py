@@ -12,6 +12,6 @@ def segundoMetodo():
 print("Ejemplo de metodos")
 # PODEMOS LLAMAR AL METODO SI LO DESEAMOS
 primerMetodo()
-segundoMetodoMetodo()
+segundoMetodo()
 primerMetodo()
 print("Fin del programa")
