@@ -18,7 +18,7 @@ print("isalnum() ", texto.isalnum())
 # Vamos a visualizar que pasa con SLICING
 # SUBSTRING
 # QUEREMOS RECUPERAR DESDE LA POSICION 2 EN ADELANTE
-substring = texto[2:]
+substring = texto[2:]  
 print("posicion 2 en adelante ", substring)
 # EN PYTHON PODEMOS RECUPERAR UNA SUBCADENA
 # DESDE UNA POSICION (2) A OTRA POSICION (5)
