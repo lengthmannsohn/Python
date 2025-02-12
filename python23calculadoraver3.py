@@ -1,11 +1,11 @@
-def sumar(sumando1, sumando2):
-    return sumando1 + sumando2
+def sumar(num1, num2):
+    return num1 + num2
 
-def restar(restando1, restando2):
-    return restando1 - restando2
+def restar(num1, num2):
+    return num1 - num2
 
-def multiplicar(factor1, factor2):
-    return factor1 * factor2
+def multiplicar(num1, num2):
+    return num1 * num2
 
 def getNumeroComprobado():
     print ("Escribe un numero")
