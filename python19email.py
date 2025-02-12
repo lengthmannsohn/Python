@@ -19,9 +19,6 @@ elif (email.count("@")>1):
 #EXISTA UN PUNTO DESPUES DE LA @
 elif (email.find("@") > email.rfind(".")):
     print("Debe tener un punto despues de la @")
-#MISMO EJEMPLO DE OTRA FORMA DIFERENTE (NO HE COMPROBADO SI FUNCIONA ESTE PUNTO)
-elif (email.find("."), email.find("@") ==-1):
-    print("Debe tener un punto despues de la @")
 else:
     #NECESITAMOS RECUPERAR EL DOMINIO
     ultimoPunto = email.rfind(".")
