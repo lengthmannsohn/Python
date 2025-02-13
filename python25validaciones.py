@@ -1,16 +1,17 @@
-import libreria25validaciopnes
+from libreria25validaciopnes import validarIsbn
+from libreria25validaciopnes import validarDni
 
-print("Programa Validaciones")
+print("Clase Program alidaciones")
 print("Introduzca un ISBN")
 
 isbn = input()
-validacionIsbn = libreria25validaciopnes.validacionIsbn(isbn)
+valido = validarIsbn(isbn)
+print("El isbn es ", valido)
 
-print(validacionIsbn)
 
 print("Introduzca un DNI sin letra")
 numeroDni = input()
 
-letraDni = libreria25validaciopnes.validacionDni(numeroDni)
+letraDni = validarDni(numeroDni)
 
 print(numeroDni + letraDni)

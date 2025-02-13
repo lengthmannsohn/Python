@@ -1,4 +1,9 @@
-def validacionIsbn(isbn):
+def validarIsbn(isbn):
+   longitud = len(isbn)
+   if (longitud != 10):
+       return False
+   elif (isbn.isdigit() == False):
+       return False
    suma = 0
    for i in range (10):
         digito = isbn[i]
@@ -8,7 +13,7 @@ def validacionIsbn(isbn):
         else:
             return False
         
-def validacionDni(dni):
+def validarDni(dni):
     dni = int(dni)
     resultado = dni % 23
     LetraDNI = ""
