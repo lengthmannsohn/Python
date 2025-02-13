@@ -9,7 +9,8 @@ def validacionIsbn(isbn):
             return False
         
 def validacionDni(dni):
-    resultado = int(dni % 23)
+    dni = int(dni)
+    resultado = dni % 23
     LetraDNI = ""
     if (resultado == 0 ):
         LetraDNI = "T"

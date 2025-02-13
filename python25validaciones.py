@@ -2,8 +2,11 @@ import libreria25validaciopnes
 
 print("Programa Validaciones")
 print("Introduzca un ISBN")
+
 isbn = input()
-libreria25validaciopnes.validacionIsbn(isbn)
+validacionIsbn = libreria25validaciopnes.validacionIsbn(isbn)
+
+print(validacionIsbn)
 
 print("Introduzca un DNI sin letra")
 numeroDni = input()
