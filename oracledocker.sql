@@ -509,8 +509,11 @@ insert into DOCTOR (DOCTOR_NO, APELLIDO, ESPECIALIDAD) values((select MAX(DOCTOR
 
 --12. Borrar todos los empleados dados de alta entre las fechas 01/01/80 y 31/12/82.
 
+delete from EMP where FECHA_ALT between '01/01/80' and '31/12/82';
 
+--13. Modificar el salario de los empleados trabajen en la paz y estén destinados a Psiquiatría.  Subirles el sueldo 20000 Ptas. más que al señor Amigo R.
 
+select APELLIDO, FUNCION from PLANTILLA where TURNO ='T';
 
 
 select * from DOCTOR;
@@ -523,6 +526,9 @@ select * from DEPT;
 
 select * from PLANTILLA;
 
+select * from ENFERMO;
+
+select * from PLANTILLA;
 
 
 
